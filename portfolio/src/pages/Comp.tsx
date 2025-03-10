@@ -71,7 +71,7 @@ export default function Comp() {
         }}
       >
         <div className="h-screen">
-          <h1 className="text-3xl font-bold mb-6 text-center mt-24">
+          <h1 className="text-3xl  mb-6 text-center mt-24">
             COMPÉTENCES
           </h1>
 
