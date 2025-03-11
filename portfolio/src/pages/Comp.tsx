@@ -23,8 +23,8 @@ export default function Comp() {
     php: "Langage de programmation backend",
     python: "Langage polyvalent et facile à apprendre",
     linux: "Système d'exploitation open-source",
-    gitbash: "Outil de gestion de versions Git",
-    docker: "Conteneurisation d'applications",
+    tailwind: "Tailwind CSS est un framework CSS open source.",
+    gitbash: "Conteneurisation d'applications",
   };
 
   useEffect(() => {
@@ -71,8 +71,8 @@ export default function Comp() {
         }}
       >
         <div className="h-screen">
-          <h1 className="text-3xl  mb-6 text-center mt-24">
-            COMPÉTENCES
+          <h1 className="text-4xl font-bold text-gray-800  mb-6 text-center mt-24">
+          ⭐ COMPÉTENCES
           </h1>
 
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-1 lg:gap-8">
@@ -94,7 +94,7 @@ export default function Comp() {
 
             {/* Deuxième ligne */}
             <div className="lg:h-32 lg:w-[50%] w-[72%] mx-auto rounded-lg flex justify-between p-4">
-              {["php", "python", "linux", "gitbash", "docker"].map((tech) => (
+              {["php", "python", "linux", "tailwind", "gitbash"].map((tech) => (
                 <div
                   key={tech}
                   className="bg-white p-6 rounded-xl shadow-md w-20 lg:w-28 lg:h-28 flex items-center justify-center transition-transform duration-200 hover:scale-105"

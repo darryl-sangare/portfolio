@@ -5,18 +5,26 @@ import About2 from './pages/About'
 import Comp from './pages/Comp'
 import Project from './pages/Project'
 import MyCarousel from './pages/MyCarousel'
+import Accueil from './pages/Accueil'
+import { Outlet } from "react-router-dom";
+
 
 
 function App() {
 
   return (
     <>
-    <Header/>
-    <Home/>
-    <About2/>
-    <Comp/>
-    <Project/>
-    <MyCarousel/>
+    <div>
+      {/* Le Header est affiché en dehors des routes */}
+      <Header />
+
+      {/* Le contenu de la route active sera rendu ici */}
+      <div>
+        <Outlet />
+      </div>
+    </div>
+    
+
     
  
     </>

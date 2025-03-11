@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <nav 
-      className={`fixed bottom-4 left-1/2 transform -translate-x-1/2 p-4 flex justify-around items-center  border rounded-3xl transition-all duration-300
+      className={`fixed bottom-4 left-1/2 transform -translate-x-1/2 p-4 flex justify-around items-center  border rounded-3xl transition-all z-10 duration-300
         ${isHovered ? 'w-[88%]' : 'w-[85%]'} 
         ${isHovered ? 'lg:w-[43%]' : 'lg:w-[40%]'}  
         ${isHovered ? 'md:w-[63%]' : 'md:w-[60%]'}
